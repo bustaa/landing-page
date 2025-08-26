@@ -1,0 +1,123 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 20px;
+    height: 320px;    
+    max-width: 90%;
+    align-self: center;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.header-info p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-info button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    padding: 8px 30px;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+}
+
+.info-content {
+    text-align: center;
+    width: 170px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.info-content img {
+    border-radius: 8px;
+}
+
+.info-container h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.third-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 40px 20px;
+    color: #1F2937
+}
+
+.third-container blockquote {
+    font-size: 36px;
+    font-style: italic;
+    max-width: 85%;
+}
+
+.third-container cite {
+    align-self: flex-end;
+    padding-right: 60px;
+    font-weight: 900;
+    font-style: normal;
+}
