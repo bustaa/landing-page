@@ -38,10 +38,10 @@ a {
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 30px 20px;
     height: 320px;    
-    max-width: 90%;
+    max-width: 100%;
     align-self: center;
     gap: 50px;
 }
@@ -120,4 +120,51 @@ h1 {
     padding-right: 60px;
     font-weight: 900;
     font-style: normal;
+}
+
+.fourth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 30px 80px;
+    border-radius: 8px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 80px;
+}
+
+.left-action-info h3 {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.left-action-info p {
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.action-container button {
+    font-family: 'Roboto', sans-serif;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 6px 30px;
+    height: 100%;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 10px;
+    color: #F9FAF8;
+    font-size: 14px;
 }
